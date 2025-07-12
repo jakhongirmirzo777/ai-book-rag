@@ -20,8 +20,9 @@ const askQuestion = async () => {
     // Who was the director of Hogwarts?
     // Who is the best friend of Harry?
     // Who is Lily
+    // Who killed Lily
 
-    const answer = await ragAnswerer.askQuestion("Who is Lily");
+    const answer = await ragAnswerer.askQuestion("Who killed Lily?");
     console.log('🔍 Answer:', answer);
 };
 
