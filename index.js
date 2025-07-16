@@ -21,8 +21,9 @@ const askQuestion = async () => {
     // Who is the best friend of Harry?
     // Who is Lily
     // Who killed Lily
+    // Who was in love with Harry Potter?
 
-    const answer = await ragAnswerer.askQuestion("Who killed Lily?");
+    const answer = await ragAnswerer.askQuestion("What is the name of Harry Potter’s owl?");
     console.log('🔍 Answer:', answer);
 };
 
